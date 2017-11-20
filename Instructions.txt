@@ -1,0 +1,6 @@
+Create and test a Windows Forms application that serves as a tip calculator. The user will enter the price of their meal and the application will calculate tips for 15%, 18%, and 20%. Specifically, the application must have:
+A Form titled "Lab 3". Remember, the form's Text property controls the information displayed in the form's title bar.
+A Label titled "Enter price of meal:" next to a TextBox that will gather this information from the user.
+Labels for "15%", "18%", and "20%" next to output Labels. Remember, for output labels, you'll need to change the AutoSize and BorderStyle properties (as the text does in Tutorial 3-3).
+A Button titled "Calculate Tip" with an event handler that calculates and displays the three tip amounts using currency formatting (again as in Tutorial 3-3). Remember, magic numbers are to be avoided. Use named constants, such as TIPRATE instead of literals like .15, or .18m, etc. See Section 3.8 for how to do this.
+All controls should be renamed from the defaults (label1, button1, etc.) to have descriptive names.
